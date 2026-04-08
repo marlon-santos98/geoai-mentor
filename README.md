@@ -79,14 +79,6 @@ Adicao de estado:
 - InMemoryChatMessageHistory guarda as mensagens por session_id.
 - obter_historico_por_sessao implementa singleton por sessao.
 
-## GIF e Evidencias
-
-Adicione um GIF curto em assets/demo.gif mostrando:
-
-1. Execucao do script
-2. Pergunta inicial
-3. Pergunta de continuidade
-4. Resposta conectando contexto anterior
 
 ## Aprendizados
 
@@ -95,8 +87,3 @@ Adicione um GIF curto em assets/demo.gif mostrando:
 - A diferenca entre IA sem estado e com estado fica clara na qualidade da segunda resposta.
 - Organizar cadeia e memoria em blocos separados facilitou manutencao e evolucao.
 
-## Proximos Passos
-
-- Persistir memoria em banco (Redis ou Postgres) para historico duravel.
-- Suportar multiplos usuarios simultaneos com session_id dinamico.
-- Criar interface web para uso nao tecnico.
